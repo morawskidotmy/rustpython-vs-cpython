@@ -1,0 +1,209 @@
+{
+  "functionality": {
+    "rustpython": {
+      "os": {
+        "working": true,
+        "error": "",
+        "description": "File system operations"
+      },
+      "sys": {
+        "working": true,
+        "error": "",
+        "description": "System information"
+      },
+      "json": {
+        "working": true,
+        "error": "",
+        "description": "JSON serialization"
+      },
+      "math": {
+        "working": true,
+        "error": "",
+        "description": "Mathematical operations"
+      },
+      "random": {
+        "working": true,
+        "error": "",
+        "description": "Random number generation"
+      },
+      "datetime": {
+        "working": true,
+        "error": "",
+        "description": "Date/time operations"
+      },
+      "collections": {
+        "working": true,
+        "error": "",
+        "description": "Collection types"
+      },
+      "itertools": {
+        "working": true,
+        "error": "",
+        "description": "Iterator operations"
+      },
+      "re": {
+        "working": true,
+        "error": "",
+        "description": "Regular expressions"
+      },
+      "hashlib": {
+        "working": true,
+        "error": "",
+        "description": "Hash functions"
+      },
+      "csv": {
+        "working": false,
+        "error": "  File \"<string>\", line 5\n    data = \"name,age\n           ^\nSyntaxError: unterminated string literal (detected at line 5)\n",
+        "description": "CSV parsing"
+      },
+      "typing": {
+        "working": true,
+        "error": "",
+        "description": "Type hints"
+      },
+      "dataclasses": {
+        "working": true,
+        "error": "",
+        "description": "Data classes"
+      },
+      "enum": {
+        "working": true,
+        "error": "",
+        "description": "Enumerations"
+      },
+      "functools": {
+        "working": true,
+        "error": "",
+        "description": "Functional utilities"
+      },
+      "pathlib": {
+        "working": true,
+        "error": "",
+        "description": "Path operations"
+      },
+      "unittest": {
+        "working": true,
+        "error": "",
+        "description": "Unit testing framework"
+      },
+      "copy": {
+        "working": true,
+        "error": "",
+        "description": "Copy operations"
+      },
+      "pickle": {
+        "working": true,
+        "error": "",
+        "description": "Pickle serialization"
+      },
+      "sqlite3": {
+        "working": false,
+        "error": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\n    import sqlite3\n  File \"/home/dj/Documents/rustvscpython/builds/rustpython/crates/pylib/Lib/sqlite3/__init__.py\", line 57, ",
+        "description": "SQLite database"
+      }
+    },
+    "cpython": {
+      "os": {
+        "working": true,
+        "error": "",
+        "description": "File system operations"
+      },
+      "sys": {
+        "working": true,
+        "error": "",
+        "description": "System information"
+      },
+      "json": {
+        "working": true,
+        "error": "",
+        "description": "JSON serialization"
+      },
+      "math": {
+        "working": true,
+        "error": "",
+        "description": "Mathematical operations"
+      },
+      "random": {
+        "working": true,
+        "error": "",
+        "description": "Random number generation"
+      },
+      "datetime": {
+        "working": true,
+        "error": "",
+        "description": "Date/time operations"
+      },
+      "collections": {
+        "working": true,
+        "error": "",
+        "description": "Collection types"
+      },
+      "itertools": {
+        "working": true,
+        "error": "",
+        "description": "Iterator operations"
+      },
+      "re": {
+        "working": true,
+        "error": "",
+        "description": "Regular expressions"
+      },
+      "hashlib": {
+        "working": true,
+        "error": "",
+        "description": "Hash functions"
+      },
+      "csv": {
+        "working": false,
+        "error": "  File \"<string>\", line 5\n    data = \"name,age\n           ^\nSyntaxError: unterminated string literal (detected at line 5)\n",
+        "description": "CSV parsing"
+      },
+      "typing": {
+        "working": true,
+        "error": "",
+        "description": "Type hints"
+      },
+      "dataclasses": {
+        "working": true,
+        "error": "",
+        "description": "Data classes"
+      },
+      "enum": {
+        "working": true,
+        "error": "",
+        "description": "Enumerations"
+      },
+      "functools": {
+        "working": true,
+        "error": "",
+        "description": "Functional utilities"
+      },
+      "pathlib": {
+        "working": true,
+        "error": "",
+        "description": "Path operations"
+      },
+      "unittest": {
+        "working": true,
+        "error": "",
+        "description": "Unit testing framework"
+      },
+      "copy": {
+        "working": true,
+        "error": "",
+        "description": "Copy operations"
+      },
+      "pickle": {
+        "working": true,
+        "error": "",
+        "description": "Pickle serialization"
+      },
+      "sqlite3": {
+        "working": true,
+        "error": "",
+        "description": "SQLite database"
+      }
+    }
+  },
+  "timestamp": "Mon  6 Jul 18:09:31 CEST 2026"
+}

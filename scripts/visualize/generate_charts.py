@@ -92,8 +92,14 @@ def create_memory_usage_chart():
     data = load_json("results/raw-data/memory-usage.json")
     
     tests = list(data['cpython'].keys())
-    cpython_memory = [data['cpython'][t]['memory'].get('max_rss_kb', 0) for t in tests]
-    rustpython_memory = [data['rustpython'][t]['memory'].get('max_rss_kb', 0) for t in tests]
+    cpython_memory = []
+    rustpython_memory = []
+    
+    for t in tests:
+        cp = data['cpython'][t]
+        rp = data['rustpython'][t]
+        cpython_memory.append(cp.get('peak_rss_mb', 0) if cp.get('success') else 0)
+        rustpython_memory.append(rp.get('peak_rss_mb', 0) if rp.get('success') else 0)
     
     x = np.arange(len(tests))
     width = 0.35

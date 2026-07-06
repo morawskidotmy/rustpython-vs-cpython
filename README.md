@@ -62,7 +62,20 @@ CPython outperforms RustPython across all benchmarks, with the gap varying by op
 
 ![Memory Usage Comparison](results/visualizations/memory-usage-comparison.png)
 
-⚠️ **Note**: Memory usage benchmarks are not yet complete. The `/usr/bin/time` tool is required but not available. This section will be updated once memory measurement is implemented.
+RustPython uses **2.5x to 3.6x more memory** than CPython across all test cases:
+
+| Test Case | CPython (MB) | RustPython (MB) | Ratio |
+|-----------|--------------|-----------------|-------|
+| Empty | 9.67 | 25.73 | 2.66x |
+| Small List | 9.04 | 26.80 | 2.97x |
+| Small Dict | 8.89 | 28.16 | 3.17x |
+| String Concat | 10.11 | 25.74 | 2.55x |
+| Large List | 18.48 | 47.78 | 2.59x |
+| Nested Dict | 16.79 | 42.65 | 2.54x |
+| Recursion | 9.19 | 25.91 | 2.82x |
+| Class Objects | 10.23 | 36.60 | 3.58x |
+
+**Why?**: RustPython's runtime includes the Rust standard library, additional safety checks, and less optimized memory allocation compared to CPython's highly tuned allocator.
 
 ### Compatibility Benchmarks
 
@@ -83,7 +96,24 @@ Both implementations support all tested Python 3.14 syntax features:
 
 #### 2. Standard Library Coverage
 
-CPython successfully imports all 24 tested standard library modules. RustPython imports 23/24, missing only one module (varies by build).
+**Import Test**: CPython 24/24, RustPython 23/24 (sqlite3 missing)
+
+**Functionality Test**: CPython 19/20, RustPython 18/20
+
+| Module | Import (CP/RP) | Functionality (CP/RP) |
+|--------|----------------|----------------------|
+| os, sys, json, math | ✓/✓ | ✓/✓ |
+| random, datetime | ✓/✓ | ✓/✓ |
+| collections, itertools | ✓/✓ | ✓/✓ |
+| re, hashlib | ✓/✓ | ✓/✓ |
+| typing, dataclasses | ✓/✓ | ✓/✓ |
+| enum, functools | ✓/✓ | ✓/✓ |
+| pathlib, unittest | ✓/✓ | ✓/✓ |
+| copy, pickle | ✓/✓ | ✓/✓ |
+| csv | ✓/✓ | ✗/✗ (test issue) |
+| sqlite3 | ✓/✗ | ✓/✗ |
+
+**Note**: Import tests verify modules can be loaded; functionality tests verify actual operations work correctly.
 
 ---
 

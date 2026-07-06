@@ -1,67 +1,135 @@
 {
   "rustpython": {
     "empty": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 26976256,
+      "peak_rss_mb": 25.7265625,
+      "avg_rss_bytes": 26805589.333333332,
+      "avg_rss_mb": 25.563802083333332,
+      "iterations": 3,
+      "success": true
     },
     "small_list": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 28102656,
+      "peak_rss_mb": 26.80078125,
+      "avg_rss_bytes": 27987968.0,
+      "avg_rss_mb": 26.69140625,
+      "iterations": 3,
+      "success": true
     },
     "small_dict": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 29532160,
+      "peak_rss_mb": 28.1640625,
+      "avg_rss_bytes": 29350570.666666668,
+      "avg_rss_mb": 27.990885416666668,
+      "iterations": 3,
+      "success": true
     },
     "string_concat": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 26992640,
+      "peak_rss_mb": 25.7421875,
+      "avg_rss_bytes": 26886144.0,
+      "avg_rss_mb": 25.640625,
+      "iterations": 3,
+      "success": true
+    },
+    "large_list": {
+      "peak_rss_bytes": 50102272,
+      "peak_rss_mb": 47.78125,
+      "avg_rss_bytes": 50058581.333333336,
+      "avg_rss_mb": 47.739583333333336,
+      "iterations": 3,
+      "success": true
+    },
+    "nested_dict": {
+      "peak_rss_bytes": 44720128,
+      "peak_rss_mb": 42.6484375,
+      "avg_rss_bytes": 44550826.666666664,
+      "avg_rss_mb": 42.486979166666664,
+      "iterations": 3,
+      "success": true
     },
     "recursion": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 27172864,
+      "peak_rss_mb": 25.9140625,
+      "avg_rss_bytes": 26811050.666666668,
+      "avg_rss_mb": 25.569010416666668,
+      "iterations": 3,
+      "success": true
+    },
+    "class_objects": {
+      "peak_rss_bytes": 38375424,
+      "peak_rss_mb": 36.59765625,
+      "avg_rss_bytes": 38293504.0,
+      "avg_rss_mb": 36.51953125,
+      "iterations": 3,
+      "success": true
     }
   },
   "cpython": {
     "empty": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 10141696,
+      "peak_rss_mb": 9.671875,
+      "avg_rss_bytes": 9849514.666666666,
+      "avg_rss_mb": 9.393229166666666,
+      "iterations": 3,
+      "success": true
     },
     "small_list": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 9474048,
+      "peak_rss_mb": 9.03515625,
+      "avg_rss_bytes": 9243306.666666666,
+      "avg_rss_mb": 8.815104166666666,
+      "iterations": 3,
+      "success": true
     },
     "small_dict": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 9326592,
+      "peak_rss_mb": 8.89453125,
+      "avg_rss_bytes": 9273344.0,
+      "avg_rss_mb": 8.84375,
+      "iterations": 3,
+      "success": true
     },
     "string_concat": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 10604544,
+      "peak_rss_mb": 10.11328125,
+      "avg_rss_bytes": 9706154.666666666,
+      "avg_rss_mb": 9.256510416666666,
+      "iterations": 3,
+      "success": true
+    },
+    "large_list": {
+      "peak_rss_bytes": 19378176,
+      "peak_rss_mb": 18.48046875,
+      "avg_rss_bytes": 18086570.666666668,
+      "avg_rss_mb": 17.248697916666668,
+      "iterations": 3,
+      "success": true
+    },
+    "nested_dict": {
+      "peak_rss_bytes": 17608704,
+      "peak_rss_mb": 16.79296875,
+      "avg_rss_bytes": 15745024.0,
+      "avg_rss_mb": 15.015625,
+      "iterations": 3,
+      "success": true
     },
     "recursion": {
-      "memory": {
-        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
-      },
-      "output": ""
+      "peak_rss_bytes": 9637888,
+      "peak_rss_mb": 9.19140625,
+      "avg_rss_bytes": 9438549.333333334,
+      "avg_rss_mb": 9.001302083333334,
+      "iterations": 3,
+      "success": true
+    },
+    "class_objects": {
+      "peak_rss_bytes": 10727424,
+      "peak_rss_mb": 10.23046875,
+      "avg_rss_bytes": 10708309.333333334,
+      "avg_rss_mb": 10.212239583333334,
+      "iterations": 3,
+      "success": true
     }
   },
-  "timestamp": "Mon  6 Jul 17:56:13 CEST 2026"
+  "timestamp": "Mon  6 Jul 18:08:15 CEST 2026"
 }
