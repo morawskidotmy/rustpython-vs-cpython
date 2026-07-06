@@ -1,0 +1,103 @@
+{
+  "rustpython": {
+    "arithmetic": {
+      "mean": 2.1990898,
+      "median": 2.206282,
+      "stdev": 0.21595904362447982,
+      "min": 1.973254,
+      "max": 2.500791,
+      "iterations": 5
+    },
+    "string_ops": {
+      "mean": 0.3910696,
+      "median": 0.38916,
+      "stdev": 0.020116196790148973,
+      "min": 0.367392,
+      "max": 0.422612,
+      "iterations": 5
+    },
+    "list_ops": {
+      "mean": 0.0087102,
+      "median": 0.008487,
+      "stdev": 0.001580648822477656,
+      "min": 0.006789,
+      "max": 0.011195,
+      "iterations": 5
+    },
+    "dict_ops": {
+      "mean": 0.0216848,
+      "median": 0.020537,
+      "stdev": 0.0029084042360029666,
+      "min": 0.018266,
+      "max": 0.025069,
+      "iterations": 5
+    },
+    "loop_performance": {
+      "mean": 0.7928146,
+      "median": 0.768421,
+      "stdev": 0.0837783178173207,
+      "min": 0.717091,
+      "max": 0.917646,
+      "iterations": 5
+    },
+    "function_calls": {
+      "mean": 2.0531411999999998,
+      "median": 2.067222,
+      "stdev": 0.07406415781739502,
+      "min": 1.949476,
+      "max": 2.123916,
+      "iterations": 5
+    }
+  },
+  "cpython": {
+    "arithmetic": {
+      "mean": 0.6176274,
+      "median": 0.627021,
+      "stdev": 0.026726040453086224,
+      "min": 0.584225,
+      "max": 0.644348,
+      "iterations": 5
+    },
+    "string_ops": {
+      "mean": 0.2954528,
+      "median": 0.299171,
+      "stdev": 0.042342593486936995,
+      "min": 0.247535,
+      "max": 0.360533,
+      "iterations": 5
+    },
+    "list_ops": {
+      "mean": 0.001682,
+      "median": 0.001869,
+      "stdev": 0.0005687380767980988,
+      "min": 0.001035,
+      "max": 0.002415,
+      "iterations": 5
+    },
+    "dict_ops": {
+      "mean": 0.0032762,
+      "median": 0.003466,
+      "stdev": 0.0005002686278390842,
+      "min": 0.002407,
+      "max": 0.003599,
+      "iterations": 5
+    },
+    "loop_performance": {
+      "mean": 0.2649422,
+      "median": 0.258294,
+      "stdev": 0.020186516990308167,
+      "min": 0.245272,
+      "max": 0.298426,
+      "iterations": 5
+    },
+    "function_calls": {
+      "mean": 0.2774874,
+      "median": 0.269661,
+      "stdev": 0.01961518392215582,
+      "min": 0.254986,
+      "max": 0.302407,
+      "iterations": 5
+    }
+  },
+  "timestamp": "2026-07-06 17:55:19"
+}

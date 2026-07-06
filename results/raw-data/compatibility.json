@@ -1,0 +1,295 @@
+{
+  "syntax_support": {
+    "rustpython": {
+      "f_strings": {
+        "supported": true,
+        "error": ""
+      },
+      "type_hints": {
+        "supported": true,
+        "error": ""
+      },
+      "pattern_matching": {
+        "supported": true,
+        "error": ""
+      },
+      "walrus_operator": {
+        "supported": true,
+        "error": ""
+      },
+      "async_await": {
+        "supported": true,
+        "error": ""
+      },
+      "decorators": {
+        "supported": true,
+        "error": ""
+      },
+      "context_managers": {
+        "supported": true,
+        "error": ""
+      },
+      "generators": {
+        "supported": true,
+        "error": ""
+      },
+      "list_comprehension": {
+        "supported": true,
+        "error": ""
+      },
+      "set_comprehension": {
+        "supported": true,
+        "error": ""
+      },
+      "dict_comprehension": {
+        "supported": true,
+        "error": ""
+      }
+    },
+    "cpython": {
+      "f_strings": {
+        "supported": true,
+        "error": ""
+      },
+      "type_hints": {
+        "supported": true,
+        "error": ""
+      },
+      "pattern_matching": {
+        "supported": true,
+        "error": ""
+      },
+      "walrus_operator": {
+        "supported": true,
+        "error": ""
+      },
+      "async_await": {
+        "supported": true,
+        "error": ""
+      },
+      "decorators": {
+        "supported": true,
+        "error": ""
+      },
+      "context_managers": {
+        "supported": true,
+        "error": ""
+      },
+      "generators": {
+        "supported": true,
+        "error": ""
+      },
+      "list_comprehension": {
+        "supported": true,
+        "error": ""
+      },
+      "set_comprehension": {
+        "supported": true,
+        "error": ""
+      },
+      "dict_comprehension": {
+        "supported": true,
+        "error": ""
+      }
+    }
+  },
+  "stdlib_coverage": {
+    "rustpython": {
+      "os": {
+        "importable": true,
+        "error": ""
+      },
+      "sys": {
+        "importable": true,
+        "error": ""
+      },
+      "json": {
+        "importable": true,
+        "error": ""
+      },
+      "math": {
+        "importable": true,
+        "error": ""
+      },
+      "random": {
+        "importable": true,
+        "error": ""
+      },
+      "time": {
+        "importable": true,
+        "error": ""
+      },
+      "datetime": {
+        "importable": true,
+        "error": ""
+      },
+      "collections": {
+        "importable": true,
+        "error": ""
+      },
+      "itertools": {
+        "importable": true,
+        "error": ""
+      },
+      "functools": {
+        "importable": true,
+        "error": ""
+      },
+      "pathlib": {
+        "importable": true,
+        "error": ""
+      },
+      "subprocess": {
+        "importable": true,
+        "error": ""
+      },
+      "re": {
+        "importable": true,
+        "error": ""
+      },
+      "hashlib": {
+        "importable": true,
+        "error": ""
+      },
+      "base64": {
+        "importable": true,
+        "error": ""
+      },
+      "csv": {
+        "importable": true,
+        "error": ""
+      },
+      "sqlite3": {
+        "importable": false,
+        "error": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import sqlite3\n  File \"/home/dj/Documents/rustvscpython/builds/rustpython/crates/pylib/Lib/sqlite3/__init__.py\", line 57, "
+      },
+      "unittest": {
+        "importable": true,
+        "error": ""
+      },
+      "typing": {
+        "importable": true,
+        "error": ""
+      },
+      "dataclasses": {
+        "importable": true,
+        "error": ""
+      },
+      "enum": {
+        "importable": true,
+        "error": ""
+      },
+      "abc": {
+        "importable": true,
+        "error": ""
+      },
+      "copy": {
+        "importable": true,
+        "error": ""
+      },
+      "pickle": {
+        "importable": true,
+        "error": ""
+      }
+    },
+    "cpython": {
+      "os": {
+        "importable": true,
+        "error": ""
+      },
+      "sys": {
+        "importable": true,
+        "error": ""
+      },
+      "json": {
+        "importable": true,
+        "error": ""
+      },
+      "math": {
+        "importable": true,
+        "error": ""
+      },
+      "random": {
+        "importable": true,
+        "error": ""
+      },
+      "time": {
+        "importable": true,
+        "error": ""
+      },
+      "datetime": {
+        "importable": true,
+        "error": ""
+      },
+      "collections": {
+        "importable": true,
+        "error": ""
+      },
+      "itertools": {
+        "importable": true,
+        "error": ""
+      },
+      "functools": {
+        "importable": true,
+        "error": ""
+      },
+      "pathlib": {
+        "importable": true,
+        "error": ""
+      },
+      "subprocess": {
+        "importable": true,
+        "error": ""
+      },
+      "re": {
+        "importable": true,
+        "error": ""
+      },
+      "hashlib": {
+        "importable": true,
+        "error": ""
+      },
+      "base64": {
+        "importable": true,
+        "error": ""
+      },
+      "csv": {
+        "importable": true,
+        "error": ""
+      },
+      "sqlite3": {
+        "importable": true,
+        "error": ""
+      },
+      "unittest": {
+        "importable": true,
+        "error": ""
+      },
+      "typing": {
+        "importable": true,
+        "error": ""
+      },
+      "dataclasses": {
+        "importable": true,
+        "error": ""
+      },
+      "enum": {
+        "importable": true,
+        "error": ""
+      },
+      "abc": {
+        "importable": true,
+        "error": ""
+      },
+      "copy": {
+        "importable": true,
+        "error": ""
+      },
+      "pickle": {
+        "importable": true,
+        "error": ""
+      }
+    }
+  },
+  "timestamp": "Mon  6 Jul 17:56:30 CEST 2026"
+}

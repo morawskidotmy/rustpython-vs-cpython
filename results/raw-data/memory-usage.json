@@ -1,0 +1,67 @@
+{
+  "rustpython": {
+    "empty": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    },
+    "small_list": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    },
+    "small_dict": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    },
+    "string_concat": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    },
+    "recursion": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    }
+  },
+  "cpython": {
+    "empty": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    },
+    "small_list": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    },
+    "small_dict": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    },
+    "string_concat": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    },
+    "recursion": {
+      "memory": {
+        "error": "[Errno 2] No such file or directory: '/usr/bin/time'"
+      },
+      "output": ""
+    }
+  },
+  "timestamp": "Mon  6 Jul 17:56:13 CEST 2026"
+}
