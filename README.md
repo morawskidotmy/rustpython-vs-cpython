@@ -31,8 +31,11 @@ This project provides a comprehensive comparison between two Python implementati
 | List Operations | 0.0017s | 0.0087s | CPython (5.2x faster) |
 | Dict Operations | 0.0033s | 0.022s | CPython (6.6x faster) |
 | Function Calls | 0.28s | 2.05s | CPython (7.4x faster) |
+| File Write | 0.075s | 0.290s | CPython (3.9x faster) |
+| File Read | 0.037s | 0.220s | CPython (6.0x faster) |
+| JSON File I/O | 0.038s | 0.232s | CPython (6.1x faster) |
 | Syntax Support | 11/11 | 11/11 | Tie |
-| Stdlib Coverage | 24/24 | 23/24 | CPython |
+| Stdlib Functionality | 19/20 | 18/20 | CPython |
 
 ---
 

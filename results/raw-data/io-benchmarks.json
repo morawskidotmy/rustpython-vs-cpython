@@ -1,0 +1,77 @@
+{
+  "rustpython": {
+    "file_write": {
+      "mean": 0.2898782611999195,
+      "min": 0.23090651399979834,
+      "max": 0.4557346510118805,
+      "iterations": 5,
+      "success": true
+    },
+    "file_read": {
+      "mean": 0.21965814000286626,
+      "min": 0.19764370001212228,
+      "max": 0.23969081100949552,
+      "iterations": 5,
+      "success": true
+    },
+    "file_read_write": {
+      "mean": 0.15781547919905278,
+      "min": 0.15434519499831367,
+      "max": 0.16254575899802148,
+      "iterations": 5,
+      "success": true
+    },
+    "json_file": {
+      "mean": 0.2316317674034508,
+      "min": 0.20977159800531808,
+      "max": 0.24775740499899257,
+      "iterations": 5,
+      "success": true
+    },
+    "csv_file": {
+      "mean": 0.1975403210002696,
+      "min": 0.19317195400071796,
+      "max": 0.20263649300613906,
+      "iterations": 5,
+      "success": true
+    }
+  },
+  "cpython": {
+    "file_write": {
+      "mean": 0.0745707238005707,
+      "min": 0.06945258400810417,
+      "max": 0.09075160100474022,
+      "iterations": 5,
+      "success": true
+    },
+    "file_read": {
+      "mean": 0.03677376739797182,
+      "min": 0.034886691995779984,
+      "max": 0.03830517599999439,
+      "iterations": 5,
+      "success": true
+    },
+    "file_read_write": {
+      "mean": 0.03231388720159885,
+      "min": 0.03063069899508264,
+      "max": 0.03471981000620872,
+      "iterations": 5,
+      "success": true
+    },
+    "json_file": {
+      "mean": 0.038312403400777836,
+      "min": 0.034004172004642896,
+      "max": 0.04253545000392478,
+      "iterations": 5,
+      "success": true
+    },
+    "csv_file": {
+      "mean": 0.04299174480256625,
+      "min": 0.03749580500880256,
+      "max": 0.04641036699467804,
+      "iterations": 5,
+      "success": true
+    }
+  },
+  "timestamp": "Mon  6 Jul 18:12:47 CEST 2026"
+}
